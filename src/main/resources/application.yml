@@ -1,0 +1,21 @@
+server:
+  port: 8087
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      database: user
+      port: 27017
+  jackson:
+    serialization:
+      indent_output: true
+
+logging:
+  level:
+    ROOT: INFO
+    org:
+      springframework:
+        web:
+          client: DEBUG
+      koenighotze: DEBUG
