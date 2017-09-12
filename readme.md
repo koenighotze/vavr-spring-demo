@@ -1,5 +1,7 @@
 # Spring demo using Vavr
 
+Current build status: [![Build Status](https://travis-ci.org/koenighotze/vavr-spring-demo.svg?branch=master)](https://travis-ci.org/koenighotze/vavr-spring-demo)
+
 - Note: this app needs a running mongodb on localhost:27017
 
 ```
